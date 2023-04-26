@@ -1,0 +1,9 @@
+Configuring permissions in Kubernetes with RBAC:-
+
+Ensuring the control of who has access to your Information System and what users have access to is the objective of an Identity and Access management system. It is one of the fundamental processes in the Security Management and it should be thoroughly taken care of.
+
+In Kubernetes, Identity and User management are not integrated in the platform and should be managed by external IAM platforms like Keycloak, Active Directory, Google’s IAM, etc. However, authentication and authorization are handled by Kubernetes.
+
+In this article we will be focusing on the authorization aspects of the IAM in Kubernetes, and more specifically on how to make sure a user has the right permissions towards the right resources using the Role-Based Access Control model.
+
+
